@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Films =( {name, children } ) =>{
 
     return(
@@ -8,8 +7,6 @@ const Films =( {name, children } ) =>{
         <li><a href ={children}>{name}</a></li>
         </>
     );
-
 };
-
 
 export default Films;

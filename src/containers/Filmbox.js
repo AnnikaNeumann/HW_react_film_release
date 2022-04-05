@@ -9,30 +9,30 @@ const FilmBox = () =>{
 
         {
             id: 1,
-            name: "Alien I",
+            name: "Alien I (1979)",
             url: "https://www.imdb.com/title/tt0078748/?ref_=fn_al_tt_1"
         },
 
         {
             id: 2,
-            name: "Last Action Hero",
+            name: "Last Action Hero (1993)",
             url: "https://www.imdb.com/title/tt0107362/?ref_=fn_al_tt_1"
         },
 
         {
             id: 3,
-            name: "The Shining",
+            name: "The Shining (1980)",
             url: "https://www.imdb.com/title/tt0081505/?ref_=fn_al_tt_1"
         },
         {
             id: 4,
-            name: "Some Like It Hot",
+            name: "Some Like It Hot (1953)",
             url: "https://www.imdb.com/title/tt0053291/?ref_=fn_al_tt_1"
         },
         {
 
             id: 5,
-            name: "Eat Pray Love",
+            name: "Eat Pray Love (2010)",
             url: "https://www.imdb.com/title/tt0879870/?ref_=fn_al_tt_1"
         }
 
@@ -42,15 +42,17 @@ const FilmBox = () =>{
  return(
 
     // add a div to style this part 
-    <>
-    <h1>Film Releases</h1>
-    <ul>
+    <div className="Upcoming">
+    <h1>UK Film Releases</h1>
+
+    <hr></hr>
     <FilmList films = {films}/>
-    <a href="https://www.imdb.com/calendar/?region=gb" >View more upcoming films</a>
-    </ul>
-    </>
+    <hr></hr>
+    <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming films</a>
+    </div>
+      
 
 );
-}
+};
 
 export default FilmBox;
