@@ -1,9 +1,10 @@
 import './App.css';
 import FilmBox from './containers/Filmbox';
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display" rel="stylesheet"></link>
 
 function App() {
   return (
-    <div classname="App">    
+    <div className="App">    
     <FilmBox/>
     </div>
   );

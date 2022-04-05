@@ -1,14 +1,30 @@
 .App {
-  text-align: center;
-  background-color: green;
-
+  text-align: left;
+  background-color:rgb(187, 150, 164)
+  
 }
 
 .Upcoming{
-  border-style: dotted;
-  width: 200%;
-
+  border-color: black;
+  border: 2px dashed;
+  width: auto;
+  padding: 20px;;
+  font-size: 20px;
+  list-style-type:circle;
+  font-family: 'Major Mono Display', monospace;
 }
+
+hr{
+height:2px;
+border-width:0;
+color:gray;
+background-color:gray
+}
+
+
+
+
+
 
 
 
