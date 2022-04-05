@@ -11,10 +11,11 @@ const FilmList = ( {films} ) => {
     });
 
     return(
+    <div className="list">
     <>
     {filmNodes}
     </>
-
+    </div>
  );
 }
 

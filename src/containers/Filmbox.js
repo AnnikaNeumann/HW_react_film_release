@@ -43,8 +43,8 @@ const FilmBox = () =>{
 
     // add a div to style this part 
     <div className="Upcoming">
-    <h1>Coming to the UK this year !!</h1>
-    <h2>Sit back, relax and get lost in the latest new releases</h2>
+    <h2>Coming to the UK this year !!</h2>
+    <h3>Sit back, relax and get lost in the latest new releases</h3>
 
     <hr></hr>
     <FilmList films = {films}/>
